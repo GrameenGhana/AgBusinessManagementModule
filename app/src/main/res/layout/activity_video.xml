@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        />
+
+
+    <ImageButton
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:id="@+id/button_back"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_back"
+        android:scaleType="centerCrop"
+         android:background="@drawable/circlebutton" />
+
+
+</RelativeLayout>

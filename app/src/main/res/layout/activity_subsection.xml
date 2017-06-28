@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout tools:context=".MainActivity"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:weightSum="5"
+              xmlns:tools="http://schemas.android.com/tools">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="invisible"
+        android:layout_marginTop="@dimen/spacing_normal"
+         android:indeterminate="true"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_gravity="center_horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/spacing_normal"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        >
+
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitXY"
+            android:tint="@color/colorAccent"
+            android:src="@drawable/ic_back"
+            android:layout_gravity="center" />
+
+        <ImageView
+             android:id="@+id/header"
+            android:layout_marginLeft="@dimen/spacing_normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            />
+
+
+    </LinearLayout>
+
+
+<LinearLayout
+      android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:layout_marginRight="@dimen/fab_margin"
+    android:layout_marginLeft="@dimen/fab_margin"
+    android:layout_marginTop="@dimen/spacing_normal"
+    android:layout_marginBottom="@dimen/spacing_normal"
+
+    >
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/step1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:layout_margin="@dimen/spacing_normal"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/step1"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/step2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:layout_margin="@dimen/spacing_normal"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/step2"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/step3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:layout_margin="@dimen/spacing_normal"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/step3"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/step4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:layout_margin="@dimen/spacing_normal"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/step4"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/step5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:layout_margin="@dimen/spacing_normal"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/step5"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

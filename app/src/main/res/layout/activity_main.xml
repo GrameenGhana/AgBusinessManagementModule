@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ffh.financialtraining.MainActivity"
+    android:weightSum="7"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/spacing_normal"
+    android:layout_marginBottom="@dimen/spacing_normal"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/session1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/spacing_normal"
+        android:layout_marginBottom="@dimen/spacing_half"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/session1"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/session2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:layout_marginBottom="@dimen/spacing_half"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/session2"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/session3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:layout_marginBottom="@dimen/spacing_half"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/session3"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/session4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:layout_marginBottom="@dimen/spacing_half"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/session4"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/session5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:layout_marginBottom="@dimen/spacing_half"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/session5"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/session6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:layout_marginBottom="@dimen/spacing_half"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/session6"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/session7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/spacing_half"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/session7"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

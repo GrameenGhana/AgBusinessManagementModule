@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="ind.aang.pastel.MainActivity">
+
+    <item
+        android:id="@+id/sdcard"
+        app:actionViewClass="android.widget.CheckBox"
+        android:checkable="true"
+        android:title="Load video files from sdcard"
+        app:showAsAction="never"/>
+
+
+
+</menu>
